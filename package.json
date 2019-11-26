@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@mdx-deck/gatsby-example",
+  "version": "3.0.13",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
+    "gh-pages": "npx gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "*",
+    "gatsby-plugin-catch-links": "^2.1.2",
+    "gatsby-theme-mdx-deck": "^3.0.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rebass": "^4.0.7"
+  }
+}
